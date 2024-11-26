@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Swag Sound" ] },
+    "summary": { "en": [ "Not sure what I'm going to put here yet, but it'll sound cool I'm sure/" ] },
+    "items": [
+    ]
+}
