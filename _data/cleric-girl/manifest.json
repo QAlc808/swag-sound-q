@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://QAlc808.github.io/swag-sound-q/cleric-girl/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Cleric Girl" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=BFE1eEtbAuA",
+        "type": "Text",
+        "label": { "en": [ "Cleric Girl" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.youtube.com/watch?v=BFE1eEtbAuA",
+        "type": "Agent",
+        "label": { "en": [ "Sisyfuss - Topic" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://QAlc808.github.io/swag-sound-q/cleric-girl/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 131.0,
+        "items": [
+          {
+            "id": "https://QAlc808.github.io/swag-sound-q/cleric-girl/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://QAlc808.github.io/swag-sound-q/cleric-girl/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.youtube.com/watch?v=BFE1eEtbAuA",
+                    "duration": 131.0
+                },
+                "target": "https://QAlc808.github.io/swag-sound-q/cleric-girl/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
